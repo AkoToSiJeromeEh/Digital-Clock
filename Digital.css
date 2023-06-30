@@ -1,0 +1,290 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 50vh;
+}
+body{
+
+    background-color: rgba(0, 0, 0, 0.922);
+}
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.title{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+}
+.style-am-pm{
+    font-size: 50px;
+    font-family: 'Silkscreen', cursive;
+}
+.monitor-container{
+    border: 20px solid black;
+    box-shadow: 0px 2px 5px white;
+    background-color: rgb(255, 168, 168);
+    text-align: center;
+    width: 40%;
+    padding: 5rem;
+    height: 9rem;
+    border-radius: 5px;
+    
+}
+.monitor-leg{
+    box-shadow: 0px 2px 5px white;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    height: 5rem;
+}
+.monitor-stand{
+    box-shadow: 0px 2px 5px white;
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    border-radius: 25px;
+    height: 2rem;
+}
+
+.lights-1{
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px rgb(214, 6, 165);
+    animation: 1s chirstmasLightEffect ease-in-out infinite;
+}
+.lights-11{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px rgb(255, 45, 45);
+    animation: 1s chirstmasLightEffect ease-in-out infinite;
+}
+.lights-2{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px rgb(219, 223, 4);
+    animation: 1s chirstmasLightEffect ease-in-out infinite;
+}
+.lights-3{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px rgb(92, 214, 5);
+    animation: 1s chirstmasLightEffect ease-in-out infinite;
+}
+.lights-4{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px rgb(12, 221, 176);
+    animation: 1s chirstmasLightEffect ease-in-out infinite;
+}
+.lights-5{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px rgb(13, 33, 249);
+    animation: 1s chirstmasLightEffect ease-in-out infinite;
+}
+.stand-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.title{
+    color: white;
+    font-size: 50px;
+    font-family: 'Silkscreen', cursive;
+}
+#todays-date{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+.footer-c{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+
+}
+.fa-copyright {
+    vertical-align: middle;
+}
+.footer-container{
+
+    display: flex;
+    width: 100%;
+    margin-top: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-instagram,.fa-twitter,.fa-facebook{
+    vertical-align: middle;
+    color:white;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.greeting-style{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    display: block;
+}
+.bg-style{
+   color: white;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.table-monitor{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    margin-top: 5px;
+    width: 70%;
+    padding: 45px; 
+    border-radius: 5px;
+}
+.frame-monitor{
+    position: absolute;
+    top: -75px;
+    right: 30px;
+    border-radius: 5px;
+    background-image: url(/img/346110318_762152782279319_7265679994786066683_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding:35px;
+}
+.frame-monitor2{
+    position: absolute;
+    top: -75px;
+    left: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center;
+    border: 5px solid black;
+    background-image: url(img/346111363_1483068185433753_1171394182773466601_n.jpg);
+    padding:35px;
+}  
+.frame-monitor3{
+    position: absolute;
+    top: -55px;
+    left: 115px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+    background-image: url(img/img3.jpg);
+    padding:25px;
+}  
+.frame-monitor4{
+    position: absolute;
+    top: -55px;
+    border-radius: 5px;
+    right: 115px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+    background-image: url(img/img4.jpg);
+    padding:25px;
+}  
+
+.frame-monitor5{
+    position: absolute;
+    top: -45px;
+    left: 185px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+    background-image: url(img/img5.jpg);
+    padding:20px;
+}  
+
+.frame-monitor6{
+    position: absolute;
+    top: -45px;
+    right: 185px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+    background-image: url(img/img6.jpg);
+    padding:20px;
+}  
+
+@keyframes chirstmasLightEffect {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@media (max-width : 831px) {
+    .title,.style-am-pm{
+        width: 100%;
+        font-size: 40px;
+    }
+    .frame-monitor5,.frame-monitor6{
+        display: none;
+    }
+}
+@media (max-width : 700px) {
+    .monitor-container{
+        margin-top: 30px;
+        padding: 4rem;
+        width: 50%;
+        height: 8rem;
+    }
+    .monitor-leg{
+         height: 6rem;
+         padding: 15px;
+    }
+    .monitor-stand{
+        background-color: rgb(0, 0, 0);
+        width: 180px;
+        border-radius: 25px;
+        height: 2rem;
+    }
+    .title,.style-am-pm{
+        width: 100%;
+        font-size: 26px;
+    }
+    .table-monitor{
+        height: 150px;
+    }
+    .footer-container{
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+    .frame-monitor2{
+        top: -55px;
+        left: 15px;
+        padding:25px;
+    }
+    .frame-monitor{
+        top: -55px;
+        right: 15px;
+        padding:25px;
+    }
+    .frame-monitor3,.frame-monitor4{
+        display: none;
+    }
+  
+}
